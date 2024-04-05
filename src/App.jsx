@@ -92,10 +92,12 @@ function App() {
     if (tasksCopy[id].dito === true) {
       tasksCopy[id].dito = false;
       tasksCopy[id].status = "Incomplete";
+      window.localStorage.setItem("Todo", JSON.stringify(tasksCopy));
       setListItem(tasksCopy);
     } else {
       tasksCopy[id].dito = true;
       tasksCopy[id].status = "Complete";
+      window.localStorage.setItem("Todo", JSON.stringify(tasksCopy));
       setListItem(tasksCopy);
     }
   };
