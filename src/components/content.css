@@ -1,0 +1,62 @@
+.content {
+  display: flex;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.721);
+  min-height: 100px;
+  border-radius: 10px;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.listwwe {
+  display: grid;
+  width: calc(100% - 80px);
+  list-style-type: none;
+  background-color: white;
+  height: 50px;
+  border-radius: 10px;
+  grid-template-rows: 1fr;
+  grid-template-columns: 50px 1fr 80px;
+  align-items: center;
+}
+
+.listwwe li {
+  position: relative;
+  right: 15px;
+  height: 40px;
+}
+
+.listwwe .checking {
+  height: 40px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.listwwe li input {
+  opacity: 1;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+}
+
+.listwwe .icontus div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2px;
+}
+
+.listwwe .icontus div span {
+  height: 40px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(128, 128, 128, 0.673);
+  border-radius: 4px;
+  cursor: pointer;
+}
