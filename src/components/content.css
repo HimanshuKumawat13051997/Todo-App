@@ -16,11 +16,12 @@
   width: calc(100% - 80px);
   list-style-type: none;
   background-color: white;
-  height: 50px;
   border-radius: 10px;
   grid-template-rows: 1fr;
-  grid-template-columns: 50px 1fr 80px;
+  grid-template-columns: 30px 1fr 80px;
   align-items: center;
+  height: 60px;
+  box-sizing: content-box;
 }
 
 .listwwe li {
@@ -31,7 +32,7 @@
 
 .listwwe .checking {
   height: 40px;
-  width: 50px;
+  width: 30px;
   display: flex;
   align-items: center;
 }
@@ -59,4 +60,10 @@
   background-color: rgba(128, 128, 128, 0.673);
   border-radius: 4px;
   cursor: pointer;
+}
+
+.tasknam {
+  display: flex;
+  align-items: center;
+  font-size: clamp(0.75rem, 0.6429rem + 0.5357vw, 1.125rem);
 }

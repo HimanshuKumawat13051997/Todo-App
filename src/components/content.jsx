@@ -24,19 +24,7 @@ export function Content({ pass }) {
                 }}
               />
             </li>
-            <li>
-              <div>
-                <span
-                  style={{
-                    position: "relative",
-                    top: "7px",
-                  }}
-                  className="tasknam"
-                >
-                  {items.task}
-                </span>
-              </div>
-            </li>
+            <li className="tasknam">{items.task}</li>
             <li className="icontus">
               <div>
                 <span>
